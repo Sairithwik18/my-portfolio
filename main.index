@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Rithwik Kotte | Full Stack Developer</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">SaiRithwik.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <i class="fas fa-sun" id="theme-icon"></i>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Sai Rithwik Kotte</h1>
+                <h2 class="hero-subtitle">I'm <span class="typing-effect"></span></h2>
+                <p class="hero-description">Motivated B.Tech student passionate about building scalable, user-centric applications using modern technologies like React, Node.js, and MongoDB.</p>
+                <div class="hero-socials">
+                    <a href="https://github.com/Sairithwik18" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sai-rithwik-341a51263" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="pp.jpg" alt="A professional photo of Sai Rithwik Kotte">
+                </div>
+                <div class="about-text">
+                    <h3>Aspiring Full Stack Developer</h3>
+                    <p>I'm a goal-oriented Information Technology student with a strong foundation in Java, Data Structures, and full-stack web development. I am skilled in debugging, performance optimization, and API integration, with a passion for solving problems through competitive programming and self-driven learning.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <h4>Java & DSA</h4>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <h4>JavaScript, HTML & CSS</h4>
+                            <div class="skill-bar"><div class="skill-level" style="width: 95%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <h4>Node.js</h4>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <h4>MongoDB & MySQL</h4>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <div class="education-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology in Information Technology</h3>
+                        <p class="education-institution">Sreenidhi Institute of Science and Technology, Hyderabad</p>
+                        <p class="education-date">Aug 2022 - May 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="webapp">Web App</button>
+                <button class="filter-btn" data-filter="game">Game</button>
+            </div>
+            <div class="project-gallery">
+                </div>
+        </section>
+
+        <section id="achievements" class="achievements-section">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-code"></i>
+                    <h3>500+ DSA Problems Solved</h3>
+                    <p>On platforms like LeetCode, GeeksforGeeks, and CodeChef.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Top Coding Performer</h3>
+                    <p>Consistently ranked among top performers in online coding competitions.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Hackathon Collaborator</h3>
+                    <p>Collaborated in a team during a national-level hackathon to build a Pet Adoption Platform.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fab fa-github-alt"></i>
+                    <h3>Active GitHub Contributor</h3>
+                    <p>Maintained multiple mini-projects and actively contributed on GitHub.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-subtitle">Seeking an internship or full-time opportunity to contribute to innovative and impactful software solutions. I'd love to hear from you!</p>
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="f0e46ad1-ff57-467d-8635-a8ef4189df1f">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>sairithwik73@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 93460 94541</p>
+                    </div>
+                     <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Hyderabad, India</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; <span id="current-year"></span> Sai Rithwik Kotte. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
